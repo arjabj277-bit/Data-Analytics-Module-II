@@ -86,9 +86,6 @@ The filtered dataset was saved as a CSV file.
 
 ---
 
-## Project Structure
-
-```text
 Data-Analytics-Module-II/
 │
 ├── Dataset/
@@ -106,34 +103,41 @@ Data-Analytics-Module-II/
 │   └── groupby_result.xlsx
 │
 └── Screenshots/
-    ├── NumPy indexing
-    ├── Broadcasting
-    ├── Timing comparison
-    ├── Multi-condition filtering
-    ├── Round-trip verification
-    └── Value counts
+    ├── 01_numpy_indexing.png
+    ├── 02_broadcasting.png
+    ├── 03_timing_comparison.png
+    ├── 04_multi_condition_filter.png
+    ├── 05_round_trip_verification.png
+    └── 06_value_counts_imbalance.png
 
-Technologies Used
-Python
-NumPy
-Pandas
-Jupyter Notebook
-Microsoft Excel
-GitHub
-Learning Outcomes
+## Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Jupyter Notebook
+- Microsoft Excel
+- GitHub
+
+---
+
+## Learning Outcomes
 
 After completing this practical, the following concepts were implemented:
 
-NumPy arrays
-Indexing and slicing
-Boolean and fancy indexing
-NumPy broadcasting
-Vectorized operations
-Pandas DataFrame filtering
-GroupBy and aggregation
-CSV and Excel file handling
-Data type and value verification
-Class imbalance analysis
-Conclusion
+- NumPy arrays
+- Indexing and slicing
+- Boolean and fancy indexing
+- NumPy broadcasting
+- Vectorized operations
+- Pandas DataFrame filtering
+- GroupBy and aggregation
+- CSV and Excel file handling
+- Data type and value verification
+- Class imbalance analysis
 
-This practical provided hands-on experience with NumPy and Pandas using a real-world Adult Income Dataset. NumPy was used for array creation, indexing, slicing, advanced indexing, and broadcasting. Pandas was used to filter records using multiple conditions, perform groupby aggregation, and handle CSV and Excel files. The round-trip verification demonstrated that exported data could be reloaded and checked for consistency. The value_counts() analysis also showed how a dominant class can create imbalance and potentially affect later machine-learning analysis. Overall, the practical strengthened the understanding of data manipulation and preprocessing techniques required for data analytics using Python.
+---
+
+## Conclusion
+
+This practical provided hands-on experience with NumPy and Pandas using a real-world Adult Income Dataset. NumPy was used for array creation, indexing, slicing, advanced indexing, and broadcasting. Pandas was used to filter records using multiple conditions, perform GroupBy aggregation, and handle CSV and Excel files. The round-trip verification demonstrated that exported data could be reloaded and checked for consistency. The `value_counts()` analysis also showed how a dominant class can create class imbalance and potentially affect later machine-learning analysis. Overall, this practical strengthened the understanding of data manipulation and preprocessing techniques required for data analytics using Python.
